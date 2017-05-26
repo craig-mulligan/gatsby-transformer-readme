@@ -22,11 +22,11 @@ var crypto = require(`crypto`);
 var readmeParser = require('readme-parser');
 
 module.exports = function () {
-  var _ref = (0, _asyncToGenerator3.default)(_regenerator2.default.mark(function _callee(_ref2) {
-    var node = _ref2.node,
-        getNode = _ref2.getNode,
-        loadNodeContent = _ref2.loadNodeContent,
-        boundActionCreators = _ref2.boundActionCreators;
+  var _ref2 = (0, _asyncToGenerator3.default)(_regenerator2.default.mark(function _callee(_ref) {
+    var node = _ref.node,
+        getNode = _ref.getNode,
+        loadNodeContent = _ref.loadNodeContent,
+        boundActionCreators = _ref.boundActionCreators;
     var createNode, updateNode, content, data, objStr, contentDigest, readmeNode;
     return _regenerator2.default.wrap(function _callee$(_context) {
       while (1) {
@@ -91,7 +91,7 @@ module.exports = function () {
   }));
 
   function onNodeCreate(_x) {
-    return _ref.apply(this, arguments);
+    return _ref2.apply(this, arguments);
   }
 
   return onNodeCreate;
